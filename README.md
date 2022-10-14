@@ -22,3 +22,6 @@ docker build -t my-app-image .
 ```
 
 5. Run a instance of image
+```
+docker run --name my-app-container -d -p 8085:80 my-app-image
+```

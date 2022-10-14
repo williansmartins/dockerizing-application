@@ -18,5 +18,5 @@ cd app
 4. Generate dist folder :
 
 ```
-ng build --base-href=/app/ --output-path=../dist
+ng build --base-href=app --output-path=../dist
 ```
