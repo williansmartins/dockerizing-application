@@ -10,26 +10,8 @@ https://labs.play-with-docker.com/
 git clone https://github.com/williansmartins/dockerizing-application.git
 ```
 
-3. Go to a source folder 
-```
-cd dockerizing-application
-```
+3. Set a Docker file
 
-4. Generate a distribution folder with static files
-```
-npm install -g @angular/cli
-ng build --prod
-```
+4. Build an image
 
-Create workspace:
-
-```
-ng new [PROJECT NAME]
-```
-
-Run the application:
-
-```
-cd [PROJECT NAME]
-ng serve
-```
+5. Run a instance of image
