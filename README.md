@@ -1,4 +1,4 @@
-### Dockerizing an application
+### Dockerizing an Front End application (using Angular)
 
 1. Use a local Docker or a online service like:
 ```
