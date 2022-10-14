@@ -11,7 +11,14 @@ git clone https://github.com/williansmartins/dockerizing-application.git
 ```
 
 3. Set a Docker file
+```
+FROM nginx:1.17.1-alpine
+COPY ./dist/* /usr/share/nginx/html/app
+```
 
 4. Build an image
+```
+docker build -t my-app-image .
+```
 
 5. Run a instance of image
